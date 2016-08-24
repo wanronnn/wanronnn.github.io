@@ -4,21 +4,68 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   
-  <title>酱五</title>
+  <title>hexo搭建博客 | 酱五</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="��¡">
   
   
-  <meta name="description" content="���˲���">
-<meta property="og:type" content="website">
-<meta property="og:title" content="酱五">
-<meta property="og:url" content="http://wanronnn.github.io/index.html">
+    <meta name="description" content="用hexo搭建个静态博客建站
+安装node.js 配置环境变量
+安装hexonpm installl -g hexo-cli
+
+创建所需文件hexo init  &amp;lt;文件夹&amp;gt;
+cd &amp;lt;文件夹&amp;gt;
+npm install
+配置信息
+上传到github所需配置url: http://wanronnn.github.io
+root: /
+type: git
+repo: git@git">
+  
+  <meta name="description" content="用hexo搭建个静态博客建站
+安装node.js 配置环境变量
+安装hexonpm installl -g hexo-cli
+
+创建所需文件hexo init  &amp;lt;文件夹&amp;gt;
+cd &amp;lt;文件夹&amp;gt;
+npm install
+配置信息
+上传到github所需配置url: http://wanronnn.github.io
+root: /
+type: git
+repo: git@git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo搭建博客">
+<meta property="og:url" content="http://wanronnn.github.io/2016/08/25/hexo搭建博客/index.html">
 <meta property="og:site_name" content="酱五">
-<meta property="og:description" content="���˲���">
+<meta property="og:description" content="用hexo搭建个静态博客建站
+安装node.js 配置环境变量
+安装hexonpm installl -g hexo-cli
+
+创建所需文件hexo init  &amp;lt;文件夹&amp;gt;
+cd &amp;lt;文件夹&amp;gt;
+npm install
+配置信息
+上传到github所需配置url: http://wanronnn.github.io
+root: /
+type: git
+repo: git@git">
+<meta property="og:updated_time" content="2016-08-24T22:39:11.929Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="酱五">
-<meta name="twitter:description" content="���˲���">
+<meta name="twitter:title" content="hexo搭建博客">
+<meta name="twitter:description" content="用hexo搭建个静态博客建站
+安装node.js 配置环境变量
+安装hexonpm installl -g hexo-cli
+
+创建所需文件hexo init  &amp;lt;文件夹&amp;gt;
+cd &amp;lt;文件夹&amp;gt;
+npm install
+配置信息
+上传到github所需配置url: http://wanronnn.github.io
+root: /
+type: git
+repo: git@git">
   
     <link rel="alternate" href="/atom.xml" title="酱五" type="application/atom+xml">
   
@@ -52,13 +99,7 @@
   </nav>
   <div class="clearfix"></div>
 </header>
-    <div class="content">
-
-
-
-
-  
-    <article class="post">
+    <div class="content"><article class="post">
   <header>
     
       <div class="icon"></div>
@@ -70,7 +111,7 @@
     
     
   
-    <h1 class="title"><a href="/2016/08/25/hexo搭建博客/">hexo搭建博客</a></h1>
+    <h1 class="title">hexo搭建博客</h1>
   
 
   </header>
@@ -109,7 +150,7 @@ branch: master
 
     
   </div>
-  <footer class="end-sep">
+  <footer>
     
       
       
@@ -117,83 +158,6 @@ branch: master
     <div class="clearfix"></div>
   </footer>
 </article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2016/08/21/git与github的使用/">
-  <time datetime="2016-08-21T14:07:19.000Z">
-    2016-08-21
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2016/08/21/git与github的使用/">git与github的使用</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>#git与github的使用</p>
-<p>##git-控制版本</p>
-<p>###基本命令</p>
-<ul>
-<li>git init 初始化一个版本库</li>
-<li>git add . 或者 git add –all 跟踪所有文件</li>
-<li>git commit -m “注释” 提交文件 设置一个节点 并且注释</li>
-<li>git log  提交日志</li>
-<li>git remote add origin url  添加远程版本库</li>
-<li>git push -u origin master 推送master分支所有内容<br>###分支</li>
-<li>git branch 查看分支</li>
-<li>git branch nanme-分支名 创建分支</li>
-<li>git checkout name 切换到name分支<br>###个人信息</li>
-<li>git config –global user.name “” 注意之间的空格</li>
-<li>gir config –global user.name “”</li>
-<li>git config –list 个人信息列表<br>###.shh</li>
-<li>ssh-keygen -t rsa -C “your@xxx.com” 创建ssh key 在用户主目录下</li>
-<li>公钥：id_rsa.pub</li>
-<li>私钥：id_rsa<ul>
-<li>把公钥复制到github设置里面的ssh key里</li>
-</ul>
-</li>
-</ul>
-<p>##github-在线托管</p>
-<ul>
-<li>把项目以网页的形式呈现：<ul>
-<li>建立gh-pages分支。”账户.github.io/项目名”</li>
-</ul>
-</li>
-<li>建立github个人页面。  <ul>
-<li>创建：wanronnn.github.io</li>
-<li>浏览：wanronnn.github.io</li>
-</ul>
-</li>
-</ul>
-
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-
-  <nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav>
 
 </div>
   </div>
